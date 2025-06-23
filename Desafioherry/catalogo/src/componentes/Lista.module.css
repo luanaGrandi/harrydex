@@ -5,5 +5,31 @@
    
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(51, 51, 51);
 }
+.tituloDestaque{
+    background-color: rgb(163, 22, 22);
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4vh;
+    padding-left: 80vh;
+    height: 7vh;
+    padding-top: 1vh;
+}
+.filtros{
+    background-color: rgba(245, 190, 10, 0.877);
+    height: 5vh;
+}
+input{
+    width: 30vh;
+    height: 3vh;
+    margin-left: 80vh;
+    margin-top: 1vh;
+    padding-left: 1vh;
+}
+
+select{
+    height: 3vh;
+}
+

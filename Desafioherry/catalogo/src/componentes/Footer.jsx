@@ -1,39 +1,15 @@
-import estilos from './Footer.module.css';
-import { Link } from 'react-router-dom';
-// importações do estilo e dos links das paginas
+import estilos from './Cabecalho.module.css';
+// estrutura basica para os componentes
 
-
-// função footer
 export function Footer(){
     return(
-        // o container principal 
-        <footer className={estilos.container}>
-            <h1>LuFlix</h1>
-            <p>Aqui tem filmes DIVOS!</p>
-            <ul>
-                {/* para fazer a nevegação entre os links das paginas (home, series e perfil) */}
-                <Link to='/'>
-                    <li>
-                        Home
-                        {/* LINK ICONES */}
-                        <span class="material-symbols-outlined">home</span>
-                    </li>
-                </Link>
+        // Cabeçalho
+        
+        // className={estilos.container} o nome do header para estilizar no css
+        <header className={estilos.container}> 
+            <h1>MagicLu</h1>
+            <h3>Aqui tem os melhores Harry Potter</h3>
+        </header>
 
-                <Link to='series'>
-                    <li>
-                        Series
-                        <span class="material-symbols-outlined">movie</span>
-                    </li>
-                </Link>
-
-                <Link to='perfil'>
-                    <li>
-                        Perfil
-                        <span class="material-symbols-outlined">person</span>
-                    </li>
-                </Link>
-            </ul>
-        </footer>
     )
 }

@@ -1,4 +1,3 @@
-import { BarraNavegacao  } from "../componentes/BarraNavegacao";
 import { Cabecalho } from "../componentes/Cabecalho";
 import { Outlet } from 'react-router-dom';
 import { Footer } from "../componentes/Footer";
@@ -10,7 +9,7 @@ export function Inicial(){
         // aparecer os componentes  
         <>  
             <Cabecalho/>
-            <BarraNavegacao/>
+           
 
             <Outlet/>
             <Footer/>

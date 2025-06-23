@@ -49,7 +49,7 @@ export function Lista(){
 
     return(
         <>
-            <h2 className={estilos.tituloDestaque}>Harry Potter</h2>
+            <h2 className={estilos.tituloDestaque}>Filtros do Harry Potter</h2>
 
             <div className={estilos.filtros}>
                 <input 
@@ -60,7 +60,7 @@ export function Lista(){
                 />
 
                 <select value={filtroCasa} onChange={(e) => setFiltroCasa(e.target.value)}>
-                    <option value="">Todas as casas</option>
+                    <option value="">busca por casas</option>
                     <option value="Gryffindor">Gryffindor</option>
                     <option value="Slytherin">Slytherin</option>
                     <option value="Hufflepuff">Hufflepuff</option>
@@ -68,7 +68,7 @@ export function Lista(){
                 </select>
             </div>
 
-            <div className={estilos.conteiner}>
+            <div className={estilos.container}>
                 <figure>
                     {personagensFiltrados.map(personagem => (
                         <Card 
