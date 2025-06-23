@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* ir para linha de baixo quando não tiver mais espao */
+   
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(17, 17, 17);
+}

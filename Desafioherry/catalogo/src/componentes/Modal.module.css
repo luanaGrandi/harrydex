@@ -1,0 +1,102 @@
+.modalback{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.8);
+    
+
+    /* profundidade que voce deseja, para o card ficar aparente, na frente dos outros*/
+}
+
+.modalContainer{
+    background-color: rgb(28,28,28);
+    padding: 10px;
+    border-radius: 15px;
+    width: 60%;
+    max-width: 90%;
+    max-height: 95%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items:stretch ;
+    position: relative;
+   
+    
+}
+
+.ModalHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:40px;
+    
+}
+
+.ModalHeader h2{
+    color: rgb(139, 55, 114);
+    text-align: center;
+    flex-grow: 1;
+    font-size: 40px;
+    font-family: "Boldonse", system-ui;
+}
+
+.imgDetalhes{
+    display: flex;
+    gap: 20px;
+}
+
+.imgModal{
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+    gap: 23px;
+    box-shadow: 2px;
+   
+}
+
+.movieDetails  {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    gap: 23px;
+   
+
+}
+
+.movieDetails ul{
+    border: 1px solid rgb(48, 48, 48);
+    width: 80vh;
+    border-radius: 3px;
+    height: 6vh;
+}
+
+
+button{
+    background-color: rgb(70, 70, 70);
+    border-radius: 50px;
+    color: aliceblue;
+    font-size: 14px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-left: 23px;
+    margin-top: 12px;
+   
+    
+}
+
+button:hover{
+    background-color:rgb(139, 55, 114);
+}
